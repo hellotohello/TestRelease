@@ -3,14 +3,16 @@
   <groupId>com.srini.devops</groupId>
   <artifactId>samplewebapp</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <name>samplewebapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <scm>
-  <connection>scm:git:https://github.com/hellotohello/TestRelease.git</connection>
-	  <developerConnection>scm:git:https://github.com/hellotohello/TestRelease.git</developerConnection>
+  <url>https://github.com</url>
+  <connection>scm:git:https://github.com/hellotohello/springproject.git</connection>
+  
+	  <developerConnection>scm:git:https://github.com/hellotohello/springproject.git</developerConnection>
 	  
-    <tag>samplewebapp-1.0</tag>
+  
   </scm>
   <dependencies>
     <dependency>
@@ -27,7 +29,7 @@
 <plugin>
    <groupId>org.apache.maven.scm</groupId>
     <artifactId>maven-scm-provider-gitexe</artifactId>
-    <version>1.9.5</version>
+    <version>1.11.2</version>
 <configuration>
 <goals>install</goals>
 </configuration>
